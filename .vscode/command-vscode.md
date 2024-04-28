@@ -27,3 +27,5 @@
 | Ctrl + Enter         | COPILOT: Open Copilot suggestions               |
 | Ctrl + I             | COPILOT: Open Ask Copilot Chat in editor        |
 | Ctrl + Alt + I       | COPILOT: Open Copilot Chat panel|Ctrl+B :close  |
+| Ctrl + ,             | SETTING: Open setting window                    |
+| Win + ;              | EMOJI: Insert emoji                             |
