@@ -29,3 +29,4 @@
 | Ctrl + Alt + I       | COPILOT: Open Copilot Chat panel|Ctrl+B :close  |
 | Ctrl + ,             | SETTING: Open setting window                    |
 | Win + ;              | EMOJI: Insert emoji                             |
+| Shift + Alt + DownArr| EDITOR: Duplicate line                          |
