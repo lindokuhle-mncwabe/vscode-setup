@@ -30,3 +30,4 @@
 | Ctrl + ,             | SETTING: Open setting window                    |
 | Win + ;              | EMOJI: Insert emoji                             |
 | Shift + Alt + DownArr| EDITOR: Duplicate line                          |
+| Ctrl + Alt + DownArr | EDITOR: Multi-cursor select                     |
