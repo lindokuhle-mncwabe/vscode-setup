@@ -31,3 +31,5 @@
 | Win + ;              | EMOJI: Insert emoji                             |
 | Shift + Alt + DownArr| EDITOR: Duplicate line                          |
 | Ctrl + Alt + DownArr | EDITOR: Multi-cursor select                     |
+| Ctrl + K , C         | EDITOR: Show code changes on current file       |
+
