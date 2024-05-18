@@ -19,6 +19,8 @@ git restore .                                     # undo unstaged local changes 
 git restore hello.c                               # undo unstaged change to specific file <br/>
 git restore --staged hello.c                      # undo staged local changes to specific file <br/>
 
+git branch -D $(git branch).Trim()                # delete all local branches the branch you are on <main> <br/>
+
 git log main..HEAD <br/>
 git log --stat main..HEAD <br/>
 
@@ -31,7 +33,7 @@ git push --set-upstream azure <new-branch-name> <br/>
 
 git diff --cached                         # to see changes that will be applied on the next commit <br/>
 git difftool                              # to view diff side by side | :qa + Enter to quit difftool <br/>
-git difftool -- [<file-path>]              # git difftool -- .\infra\gateway-api\main.bicep <br/>
+git difftool -- <file-path>              # git difftool -- .\infra\gateway-api\main.bicep <br/>
 
 # resetting feature branch to main <br/>
 git checkout main <br/>
