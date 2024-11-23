@@ -4,7 +4,6 @@
 # Step #4: set terminal Startup default profile to <NewPowerShell>
 # Step #5: follow instructions here: https://dev.to/slydragonn/how-to-set-up-the-windows-terminal-with-powershell-and-oh-my-posh-2ba4
 # Step #6: set <NewPowerShell> font to JetBrainsMono Nerd Font installed in step 5
-# Step #6: run commnad > notepad $PROFILE
 # Step #7: run command > notepad $PROFILE ; copy-paste entries below to the file and save it. open new terminal tab to see changes
 
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\1_shell.omp.json" | Invoke-Expression
