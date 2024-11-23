@@ -1,0 +1,19 @@
+# Step #1: install winget
+# Step #2: install new powershell 7 that supports awesome modules > winget install --id Microsoft.PowerShell --source winget
+# Step #3: create a new profile on the terminal can call it <NewPowerShell> and set the command line to: C:\Program Files\PowerShell\7\pwsh.exe 
+# Step #4: set terminal Startup default profile to <NewPowerShell>
+# Step #5: follow instructions here: https://dev.to/slydragonn/how-to-set-up-the-windows-terminal-with-powershell-and-oh-my-posh-2ba4
+# Step #6: set <NewPowerShell> font to JetBrainsMono Nerd Font installed in step 5
+
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\1_shell.omp.json" | Invoke-Expression
+Import-Module -Name Terminal-Icons
+
+if ($host.Name -eq 'ConsoleHost')
+{
+    Import-Module PSReadLine
+    Set-PSReadLineOption -PredictionSource History
+    Set-PSReadLineOption -EditMode Windows
+    Set-PSReadLineOption -PredictionViewStyle ListView
+}
+
+cd /
