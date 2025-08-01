@@ -8,6 +8,7 @@
 | Ctrl + MT            | TERMINAL: Toggle maximized panel                |
 | Ctrl + pgDown        | TERMINAL: Navigate to next                      |
 | Ctrl + pgUp          | TERMINAL: Navigate to previous                  |
+| Shift + Ctrl + pgUp  | TERMINAL: Scroll up                             |
 | Ctrl + Shift + `     | TERMINAL: Create new                            |
 | Shift + Alt HoldDown | TERMINAL: Tranform cursor to large cross        |
 | Ctrl + MR            | VIEW: Move panel right                          |
