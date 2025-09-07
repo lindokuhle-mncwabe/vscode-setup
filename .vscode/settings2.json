@@ -1,0 +1,395 @@
+{
+    "workbench.colorTheme": "React Theme",
+    "workbench.editor.showTabs": "single",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.enableStickyScroll": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 8,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "window.zoomLevel": 2,
+    "window.titleBarStyle": "custom",
+    "window.title": " ",
+    "custom-ui-style.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+        "x": 20,
+        "y": 16
+        }
+    },
+    "custom-ui-style.stylesheet": {
+        ".notification-toast": "box-shadow: none !important",
+        ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+        ".quick-input-widget": "top: 25vh !important",
+        ".quick-input-list .scrollbar": "display: none",
+        ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+        ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+        ".quick-input-titlebar": "background: #100B15 !important",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+        ".monaco-scrollable-element > .shadow.top": "display: none",
+        ".sidebar .title-label": "padding: 0 !important",
+        ".sidebar": "border: none !important",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+        ".monaco-list-row.focused": "outline: none !important",
+        ".monaco-editor .scroll-decoration": "display: none",
+        ".title-actions": "display: none !important",
+        ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+        ".title .monaco-icon-label:after": "margin-right: 0",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+        ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+        ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+    },
+    "custom-ui-style.font.sansSerif": "Dank Mono",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.cursorBlinking": "solid",
+    // "editor.cursorStyle": "block",
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000000",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+        "editorOverviewRuler.selectionHighlightForeground": "#0000",
+        "editorOverviewRuler.rangeHighlightForeground": "#0000",
+        "editorOverviewRuler.wordHighlightForeground": "#0000",
+        "editorOverviewRuler.bracketMatchForeground": "#0000",
+        "editorOverviewRuler.findMatchForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000",
+        "editorOverviewRuler.warningForeground": "#0000",
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.errorForeground": "#0000",
+        "editorOverviewRuler.infoForeground": "#0000",
+        "editorOverviewRuler.border": "#0000",
+        "[Aura Dracula Spirit (Soft)]": {
+        "editorSuggestWidget.selectedBackground": "#3A334B",
+        "sideBar.background": "#191521"
+        }
+    },
+    "editor.fontFamily": "Dank Mono",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 2,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+        {
+            "scope": "comment",
+            "settings": {
+            "fontStyle": "italic"
+            }
+        }
+        ]
+    },
+    "editor.stickyScroll.enabled": false,
+    "editor.colorDecorators": false,
+    "editor.codeLens": false,
+    "editor.links": false,
+    "editor.matchBrackets": "never",
+    "editor.parameterHints.enabled": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.hover.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "scm.diffDecorations": "none",
+    "editor.lineNumbers": "relative",
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.showFoldingControls": "never",
+    "editor.guides.indentation": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "top",
+    "emmet.triggerExpansionOnTab": true,
+    "files.autoSave": "afterDelay",
+    "update.mode": "none",
+    "extensions.ignoreRecommendations": true,
+    "window.customTitleBarVisibility": "auto",
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
+}
+
+/*
+    // "workbench.colorTheme":"Aura Dracula Spirit (Soft)",
+    // "workbench.activityBar.location": "hidden",
+    // "workbench.editor.showTabs": "single",
+    // "workbench.statusBar.visible": false,
+    // "workbench.startupEditor": "none",
+    // "workbench.tips.enabled": false, // Disable the startup tips and shortcuts
+    // "editor.minimap.enabled": false,
+    // "breadcrumbs.enabled": false,
+    // "workbench.sideBar.location": "right",
+    // "workbench.iconTheme": "material-icon-theme",
+    // "material-icon-theme.hidesExplorerArrows": true,
+    // "workbench.tree.enableStickyScroll": false,
+    // "workbench.tree.renderIndentGuides": "none",
+    // "workbench.tree.indent": 16,
+    // "explorer.compactFolders": false,
+    // "explorer.confirmDragAndDrop": true,
+    // "explorer.confirmDelete": true,
+    // "explorer.decorations.badges": false,
+    // "git.decorations.enabled": false,
+    // "window.zoomLevel": 3,
+    // "window.customTitleBarVisibility": "never",
+    // "window.titleBarStyle": "native",
+    // "custom-ui-style.electron": {
+    //     "titleBarStyle": "hidden",
+    //     "trafficLightPosition":{
+    //         "x": 20,
+    //         "y": 16
+    //     }
+    // },
+    // "custom-ui-style.stylesheet": {
+    //     ".monaco-workbench .part.editor > "
+    // },
+    // "custom-ui-style.font.sansSerif": "Dank Mono",
+
+
+    // "update.mode": "none",
+    // "extensions.autoUpdate": false,
+    // "material-icon-theme.hidesExplorerArrows": true,
+    // "workbench.startupEditor": "none",
+    // "workbench.tips.enabled": false,
+    // "window.zoomLevel": 1   ,
+    // "workbench.colorCustomizations": {
+    //     "editorSuggestWidget.selectedBackground": "#231739",
+    //     "sideBar.background": "#140E1A",
+    //     "list.activeSelectionBackground": "#231739",
+    //     "list.inactiveSelectionBackground": "#231739",
+    //     "list.focusBackground": "#231739",
+    //     "list.hoverBackground": "#231739",
+    //     "terminalCursor.foreground": "#C45DFF",
+    // },
+    // "mssql.connectionGroups": [
+    //     {
+    //         "name": "ROOT",
+    //         "id": "6966D6C9-389C-4705-8008-6C0CC11C38C4"
+    //     }
+    // ],
+    // "[sql]": {
+    //     "editor.defaultFormatter": "ms-mssql.mssql"
+    // },
+    // "github.copilot.nextEditSuggestions.enabled": true,
+    //"workbench.colorTheme": "Night Owl (No Italics)",
+    // "indentRainbow.indicatorStyle": "light",
+    // "csharp.experimental.debug.hotReload": true,
+    // "workbench.layoutControl.enabled": false,
+    // "editor.minimap.enabled": false,
+    // "git.openRepositoryInParentFolders": "never",
+
+    // "editor.minimap.enabled": false,
+    // "editor.guides.indentation": false,
+    // "editor.renderWhitespace": "all",
+    // //"editor.renderLineHighlight": "none",
+    // "editor.matchBrackets": "never",
+    // "editor.lightbulb.enabled": "off",
+    // "editor.hover.enabled": false,
+    // //"editor.showFoldingControls": "never",
+    // "editor.scrollbar.horizontal": "hidden",
+    // "editor.scrollbar.vertical": "visible",
+    // "editor.overviewRulerBorder": false,
+    // "editor.cursorBlinking": "solid",
+    // "editor.cursorSmoothCaretAnimation": "on",
+    // "editor.tabSize": 4,
+    // "editor.detectIndentation": false,
+    // "editor.fontFamily": "JetbrainsMono Nerd Font",
+    // "editor.fontSize": 16,
+    // "editor.fontLigatures": true,
+    // "editor.lineHeight": 2.5,
+    // "breadcrumbs.enabled": false,
+    // "explorer.compactFolders": false,
+    // "scm.diffDecorations": "none",
+    // "files.insertFinalNewline": true,
+    // "extensions.ignoreRecommendations": true,
+    // "workbench.editor.editorActionsLocation": "hidden",
+    // "terminal.integrated.lineHeight": 1.5,
+    // "terminal.integrated.fontSize": 14,
+    // "window.titleBarStyle": "custom",
+    // "apc.font.family": "JetbrainsMono Nerd Font",
+    // "apc.menubar.compact": true,
+    // "window.commandCenter": false,
+    // "animations.Install-Method": "Apc Customize UI++",
+    // "terminal.integrated.defaultProfile.windows": "PowerShell",
+    // "editor.stickyScroll.scrollWithEditor": false,
+    // "workbench.tree.enableStickyScroll": false,
+    // "editor.stickyScroll.enabled": false,
+    // "terminal.integrated.tabs.enabled": false,
+    // "editor.codeLens": false,
+    // "debug.console.fontFamily": "",
+    // "code-runner.clearPreviousOutput": true,
+    // "code-runner.showExecutionMessage": false,
+    // "code-runner.showRunCommandInEditorContextMenu": false,
+    // "depot.openWithSchemaEditingOn": false,
+    // "github.copilot.editor.enableAutoCompletions": true,
+    // "docker.environment": {
+    //     "DOCKER_HOST": "unix:///run/user/1000/podman/podman.sock",
+    //     "docker.dockerPath": "/usr/bin/podman"
+    // },
+    // "dev.containers.dockerPath": "podman",
+    // "redhat.telemetry.enabled": false,
+    // "dotnet.testWindow.useTestingPlatformProtocol": true,
+    // "dotnet.testWindow.disableAutoDiscovery": true,
+    //"files.autoSave": "afterDelay",
+    // "github.copilot.enable": {
+    //     "*": true,
+    //     "plaintext": true,
+    //     "markdown": false,
+    //     "scminput": false
+    // },
+    // "remote.SSH.remotePlatform": {
+    //     "sandbox.yly8hw.csb": "linux"
+    // },
+    // "code-runner.executorMap": {
+    //     "javascript": "node",
+    //     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    //     "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    //     "zig": "zig run",
+    //     "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    //     "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    //     "php": "php",
+    //     "python": "python -u",
+    //     "perl": "perl",
+    //     "perl6": "perl6",
+    //     "ruby": "ruby",
+    //     "go": "go run",
+    //     "lua": "lua",
+    //     "groovy": "groovy",
+    //     "powershell": "powershell -ExecutionPolicy ByPass -File",
+    //     "bat": "cmd /c",
+    //     "shellscript": "bash",
+    //     "fsharp": "fsi",
+    //     "csharp": "dotnet-script",
+    //     "vbscript": "cscript //Nologo",
+    //     "typescript": "ts-node",
+    //     "coffeescript": "coffee",
+    //     "scala": "scala",
+    //     "swift": "swift",
+    //     "julia": "julia",
+    //     "crystal": "crystal",
+    //     "ocaml": "ocaml",
+    //     "r": "Rscript",
+    //     "applescript": "osascript",
+    //     "clojure": "lein exec",
+    //     "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    //     "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    //     "racket": "racket",
+    //     "scheme": "csi -script",
+    //     "ahk": "autohotkey",
+    //     "autoit": "autoit3",
+    //     "dart": "dart",
+    //     "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    //     "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    //     "haskell": "runghc",
+    //     "nim": "nim compile --verbosity:0 --hints:off --run",
+    //     "lisp": "sbcl --script",
+    //     "kit": "kitc --run",
+    //     "v": "v run",
+    //     "sass": "sass --style expanded",
+    //     "scss": "scss --style expanded",
+    //     "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    //     "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    //     "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    //     "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    //     "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    //     "sml": "cd $dir && sml $fileName",
+    //     "mojo": "mojo run"
+    // },
+    // "git.openRepositoryInParentFolders": "never",
+    // "dotnet-interactive.interactiveToolSource": "https://api.nuget.org/v3/index.json",
+    // "editor.accessibilitySupport": "on",
+    // "animations.CursorAnimation": true,
+    // "mssql.connectionGroups": [
+    //     {
+    //         "name": "ROOT",
+    //         "id": "68BBD9EB-D044-4D5A-87CC-99E876A60F0E"
+    //     }
+    // ],
+    // "mssql.connections": [
+    //     {
+    //         "server": "IWISQLLSTIWIDV",
+    //         "database": "",
+    //         "authenticationType": "Integrated",
+    //         "profileName": "IWIDV",
+    //         "id": "E8C5431E-B7A2-4771-9F47-0B9158EC00A2",
+    //         "encrypt": "Mandatory",
+    //         "trustServerCertificate": true,
+    //         "groupId": "68BBD9EB-D044-4D5A-87CC-99E876A60F0E",
+    //         "user": "",
+    //         "password": "",
+    //         "connectTimeout": 15,
+    //         "commandTimeout": 30,
+    //         "applicationName": "vscode-mssql"
+    //     },
+    //     {
+    //         "server": "IWISQLLSTIWITS",
+    //         "database": "master",
+    //         "authenticationType": "Integrated",
+    //         "profileName": "IWISQLLSTIWITS",
+    //         "encrypt": "Mandatory",
+    //         "trustServerCertificate": true,
+    //         "connectTimeout": 15,
+    //         "commandTimeout": 30,
+    //         "applicationName": "vscode-mssql",
+    //         "profileSource": 1,
+    //         "groupId": "68BBD9EB-D044-4D5A-87CC-99E876A60F0E",
+    //         "id": "00F2F0E5-8DA0-4BD2-B0C2-6D8314D60464",
+    //         "password": ""
+    //     }
+    // ],
+    // "workbench.layoutControl.enabled": false,
+    // // For which languages indent-rainbow should be activated (if empty it means all).
+    // "indentRainbow.includedLanguages": [], // for example ["nim", "nims", "python"]
+    // // For which languages indent-rainbow should be deactivated (if empty it means none).
+    // "indentRainbow.excludedLanguages": ["plaintext"],
+    // // The delay in ms until the editor gets updated.
+    // "indentRainbow.updateDelay": 100,
+    // // The indent color if the number of spaces is not a multiple of "tabSize".
+    // "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
+    // // The indent color when there is a mix between spaces and tabs.
+    // // To be disabled this coloring set this to an empty string.
+    // "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+    // // we use a simple 1 pixel wide line
+    // "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    // // the same colors as above but more visible
+    // "indentRainbow.colors": [
+    //     "rgba(255,255,64,0.3)",
+    //     "rgba(127,255,127,0.3)",
+    //     "rgba(255,127,255,0.3)",
+    //     "rgba(79,236,236,0.3)"],
+    // // Example of regular expression in JSON (note double backslash to escape characters)
+    // "indentRainbow.ignoreLinePatterns" : [
+    //     "/[ \t]* [*]/g", // lines begining with <whitespace><space>*
+    //     "/[ \t]+[/]{2}/g" // lines begininning with <whitespace>//
+    // ],
+    // "mssql.openQueryResultsInTabByDefaultDoNotShowPrompt": true,
+    // "mssql.autoDisableNonTSqlLanguageService": false,
+    // "[sql]": {
+    //     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    // },
+    // "containers.environment": {
+    //     "DOCKER_HOST": "unix:///run/user/1000/podman/podman.sock",
+    //     "docker.dockerPath": "/usr/bin/podman"
+    // },
+    // "indentRainbow.indicatorStyle": "light"
+*/
